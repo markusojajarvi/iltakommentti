@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">iltakommentti</string>
+    <string name="title_home">Generaattori</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="iltakommentti_title">Iltakommentti</string>
+    <string name="prev_button">&lt;&lt;</string>
+    <string name="next_button">&gt;&gt;</string>
+    <string name="null_value">NULL</string>
+    <string name="generate_btn">GENEROI KOMMENTTI</string>
+    <string name="title_settings">Asetukset</string>
+    <string name="title_about">Info</string>
+    <string name="comment_hint">Kirjoita kommenttisi...</string>
+    <string name="article_imageview">article_imageview</string>
+    <string name="default_user">Käyttäjänimi</string>
+</resources>
