@@ -81,7 +81,7 @@ public abstract class IltakommenttiDatabase extends RoomDatabase {
                 }
 
                 List<Comment> comments = Arrays.asList(
-                        // 5G-kommentit
+                        // 5G
                         new Comment("jaska58", "Kuinka kehtaavat? Hallitus vaarantaa tällaisilla toimilla Suomen kansalaiset..", 0, 1),
                         new Comment("kari123", "Pojan pojallani uusi puhelin, jossa viisi-Gee.. Kohta sulattaa nuorukaisen aivot!", 0, 1),
                         new Comment("Marjukka", "PITÄISI LAILLA KIELTÄÄ!!!", 0, 1),
@@ -90,8 +90,26 @@ public abstract class IltakommenttiDatabase extends RoomDatabase {
                         new Comment("vauva_puumeri", "Minulla doro-puhelin.. en tuommoisia ", 0, 1),
                         new Comment("marko69", "Valkoista hetero miestä kohtaan hyökätään tässä. ", 0, 1),
                         new Comment("Kalevi", "Kyllä on nyt niin ettäs kiinan viirus on salaliitto laboratoriossa keksitty kiusa meille suomalaisille veron maksajille..", 0, 1),
-                        new Comment("M4rj4-Terttu", "Kyllä meidän Sauli on tosi mies.. ei mikään oranssi juusto pallero ameriikan risudentti.", 0, 2),
-                        new Comment("Jamppa123", "Kyllä trumppi on hieno mies.. ei mikään tuollainen liskomatelijamies.", 0, 2)
+                        // TRUMP
+                        new Comment("M4rj4-Terttu", "Kyllä meidän Sauli on tosi mies.. ei mikään oranssi ameriikan risudentti.", 0, 2),
+                        new Comment("Jamppa123", "Kyllä trumppi on hieno mies.. ei mikään tuollainen liskomies.", 0, 2),
+                        new Comment("kolmen_lapsen_äityli", "Miksi aina uutislööpit hyökkäävät amerikan presidenttejä kohtaan?! Suomessa asutaan, meillä kaikki hyvin täällä..", 0, 2),
+                        new Comment("lööppääjä", "Kaikkea kanssa.. Nykyään on kaikkia liskoja ja muita vähemmistöjä. Kohta saa mennä palopostin kanssa naimisiin?! Huhhuh..", 0, 2),
+                        new Comment("Maka-Riina", "Totuus tulee aina julki!", 0, 2),
+                        // ILMASTONMUUTOS
+                        new Comment("Rööki-Reijo", "Kyllä on ihan höpön löpön pöppöötä tuo ilmastousko. Meillä Keravalla satoi lunta kerran viime jouluna..", 0, 3),
+                        new Comment("Seppo Taalasmaa", "Ja meidän suomalaisten verorahoilla sitten kaikki pelastetaan! Ei pääse diesel autolla enää kohta minnekään!!", 0, 3),
+                        new Comment("Ulla Taalasmaa", "Hyvin tarkenee! Suomessa aina niin kylmä :-/", 0, 3),
+                        // KOIRANPENTU
+                        new Comment("Miksi", "En ymmärrä?! Miksi ei osata puhelinta kääntää? Ikävät mustat palkit sivuilla.. :-(", 0, 4),
+                        new Comment("Sirpa-täti", "Kyllä on nyt törkeätä resurssien haaskausta, kun lukijalle näytetään hirveän pitkiä mainoksia vain! Köyhät köyhtyy ja rikkaat vaan rikastuu!", 0, 4),
+                        new Comment("hyi", "Lopetan lehden tilauksen, en tykkää!", 0, 4),
+                        // CHEEK
+                        new Comment("Risto55", "Kuka Cherk? En tunnista.. Pitäisikö tietää?", 0, 5),
+                        new Comment("Liisi15", "IIIIIIIH! JHT <33333 Cheek on kyl mun lempi pändi!", 0, 5),
+                        // RÄSÄNEN
+                        new Comment("hillitön_pappi", "Nyt riittää, Päivi.. Erosin kirkosta!", 0, 6),
+                        new Comment("PasiP", "Olen iäkäs mies, enkä ikinä persettäni pyyhkinyt.. Paskon muutenkin aina housuihini.", 0, 6)
                 );
 
                 for (Comment comment : comments) {
