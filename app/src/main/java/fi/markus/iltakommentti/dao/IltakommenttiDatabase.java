@@ -18,7 +18,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import fi.markus.iltakommentti.model.Comment;
 import fi.markus.iltakommentti.model.NewsArticle;
 
-@Database(entities = {NewsArticle.class, Comment.class}, version = 1)
+@Database(entities = {NewsArticle.class, Comment.class}, version = 1, exportSchema = false)
 public abstract class IltakommenttiDatabase extends RoomDatabase {
 
     public abstract IltakommenttiDao iltakommenttiDao();
