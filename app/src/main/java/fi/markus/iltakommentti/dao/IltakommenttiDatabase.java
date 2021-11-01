@@ -70,7 +70,7 @@ public abstract class IltakommenttiDatabase extends RoomDatabase {
                 NewsArticle na3 = new NewsArticle(3, "SUPER HELLE! Ilmastonmuutos lupaa 150-asteista intiaanikesää marraskuulle. Aurinkorasvat esiin! Lue lisää..", "otsikko_ilmasto", 0);
                 NewsArticle na4 = new NewsArticle(4, "TOSI SÖPÖI HAUVOJA! UwU *rawr* Katso tästä vertikaalisesti kuvattu paskalaatuinen video 30 sekunnin ei-skipattavalla mainoksella. Lue lisää..", "otsikko_hauva", 0);
                 NewsArticle na5 = new NewsArticle(5, "Jare Henrik Tiihonen elikkäpä Cheek tekee comebackin! Kuuntele tästä upouusi sinkku 'Soijapavut Mun Riisiin'! Lue lisää..", "otsikko_cheek", 0);
-                NewsArticle na6 = new NewsArticle(6, "Päivi Räsänen haluaa kieltää paskalla käymisen: 'Perseen esiaviollinen pyyhkiminen johtaa kadotukseen, tms..' Lue lisää..", "otsikko_paivi", 0);
+                NewsArticle na6 = new NewsArticle(6, "Päivi Räsänen haluaa kieltää vessassa käymisen: 'Esiaviollinen pyyhkiminen johtaa kadotukseen, tms..' Lue lisää..", "otsikko_paivi", 0);
 
                 List<NewsArticle> newsArticles = Arrays.asList(
                         na1, na2, na3, na4, na5, na6
@@ -94,7 +94,6 @@ public abstract class IltakommenttiDatabase extends RoomDatabase {
                         new Comment("M4rj4-Terttu", "Kyllä meidän Sauli on tosi mies.. ei mikään oranssi ameriikan risudentti.", 0, 2),
                         new Comment("Jamppa123", "Kyllä trumppi on hieno mies.. ei mikään tuollainen liskomies.", 0, 2),
                         new Comment("kolmen_lapsen_äityli", "Miksi aina uutislööpit hyökkäävät amerikan presidenttejä kohtaan?! Suomessa asutaan, meillä kaikki hyvin täällä..", 0, 2),
-                        new Comment("lööppääjä", "Kaikkea kanssa.. Nykyään on kaikkia liskoja ja muita vähemmistöjä. Kohta saa mennä palopostin kanssa naimisiin?! Huhhuh..", 0, 2),
                         new Comment("Maka-Riina", "Totuus tulee aina julki!", 0, 2),
                         // ILMASTONMUUTOS
                         new Comment("Rööki-Reijo", "Kyllä on ihan höpön löpön pöppöötä tuo ilmastousko. Meillä Keravalla satoi lunta kerran viime jouluna..", 0, 3),
@@ -109,7 +108,7 @@ public abstract class IltakommenttiDatabase extends RoomDatabase {
                         new Comment("Liisi15", "IIIIIIIH! JHT <33333 Cheek on kyl mun lempi pändi!", 0, 5),
                         // RÄSÄNEN
                         new Comment("hillitön_pappi", "Nyt riittää, Päivi.. Erosin kirkosta!", 0, 6),
-                        new Comment("PasiP", "Olen iäkäs mies, enkä ikinä persettäni pyyhkinyt.. Paskon muutenkin aina housuihini.", 0, 6)
+                        new Comment("PasiP", "Olen iäkäs mies, enkä kertaakaan eläissäni ole pyyhkinyt..", 0, 6)
                 );
 
                 for (Comment comment : comments) {
