@@ -9,8 +9,10 @@
     <string name="null_value">NULL</string>
     <string name="generate_btn">GENEROI KOMMENTTI</string>
     <string name="title_settings">Asetukset</string>
-    <string name="title_about">Info</string>
+    <string name="title_about">Tietoa</string>
     <string name="comment_hint">Kirjoita kommenttisi...</string>
     <string name="article_imageview">article_imageview</string>
     <string name="default_user">Käyttäjänimi</string>
+    <string name="iltakommentti_info_title">Iltakommentti © 2020 Markus Ojajärvi</string>
+    <string name="info_txt">Liiba laaba live love laugh</string>
 </resources>

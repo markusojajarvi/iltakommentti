@@ -81,7 +81,6 @@
         style="@style/Widget.MaterialComponents.Button"
         android:layout_width="58dp"
         android:layout_height="60dp"
-        android:layout_marginTop="1dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#F44336"
         android:foreground="@drawable/icon_share"
@@ -93,7 +92,7 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toEndOf="@+id/prev_btn"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.971" />
+        app:layout_constraintVertical_bias="0.771" />
 
     <Button
         android:id="@+id/clear_btn"
@@ -162,7 +161,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/comment_textfield"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/newsArticleView"
         app:layout_constraintVertical_bias="1.0" />
